@@ -1,0 +1,120 @@
+/* frontend/src/campus-map/CampusMap.css
+   Scoped to .cm-* classes only — safe to import without affecting any
+   other part of the app's styles.css. */
+
+.cm-wrap { display: flex; flex-direction: column; height: 100%; min-height: 560px; gap: 12px; }
+
+.cm-toolbar { display: flex; gap: 10px; align-items: flex-start; }
+.cm-search { position: relative; flex: 1; }
+.cm-search input {
+  width: 100%; background: var(--card-bg); border: 1.5px solid var(--border);
+  border-radius: 12px; padding: 12px 14px; color: var(--text); font-size: 14px;
+  backdrop-filter: blur(10px);
+}
+.cm-search-results {
+  position: absolute; top: calc(100% + 6px); left: 0; right: 0; z-index: 500;
+  background: var(--card); border: 1.5px solid var(--border); border-radius: 12px;
+  overflow: hidden; box-shadow: 0 12px 30px rgba(0,0,0,.35);
+}
+.cm-search-item {
+  display: flex; align-items: center; gap: 8px; width: 100%; text-align: left;
+  padding: 10px 14px; background: none; border: none; color: var(--text); cursor: pointer; font-size: 13.5px;
+}
+.cm-search-item:hover { background: rgba(91,143,255,.08); }
+.cm-search-cat { margin-left: auto; font-size: 10.5px; color: var(--muted); }
+
+.cm-map-shell { position: relative; flex: 1; border-radius: 16px; overflow: hidden; border: 1.5px solid var(--border); }
+.cm-leaflet { width: 100%; height: 100%; min-height: 480px; background: #0c1220; }
+
+.cm-banner { font-size: 12.5px; padding: 8px 12px; border-radius: 10px; background: rgba(91,143,255,.1); color: var(--text); border: 1px solid var(--border); }
+.cm-banner-err { background: rgba(229,62,62,.12); border-color: rgba(229,62,62,.3); }
+.cm-banner-info { background: rgba(0,168,107,.12); border-color: rgba(0,168,107,.3); }
+
+/* Facility marker pin */
+.cm-div-icon { background: transparent; }
+.cm-pin {
+  --pin-color: #5b8fff;
+  width: 32px; height: 32px; border-radius: 50% 50% 50% 4px; transform: rotate(45deg);
+  background: var(--pin-color); display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,.4); border: 2px solid #fff;
+}
+.cm-pin span { transform: rotate(-45deg); font-size: 15px; }
+
+/* User location marker */
+.cm-user-dot { position: relative; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; }
+.cm-user-pulse {
+  position: absolute; width: 30px; height: 30px; border-radius: 50%; background: rgba(91,143,255,.35);
+  animation: cmPulse 1.8s ease-out infinite;
+}
+.cm-user-arrow { font-size: 16px; color: #5b8fff; filter: drop-shadow(0 1px 2px rgba(0,0,0,.5)); transition: transform .3s ease; }
+@keyframes cmPulse { 0% { transform: scale(.4); opacity: .8; } 100% { transform: scale(1.6); opacity: 0; } }
+
+/* Route line animation */
+.cm-route-line { stroke-dasharray: 10 8; animation: cmDash 1s linear infinite; }
+@keyframes cmDash { to { stroke-dashoffset: -36; } }
+
+/* Popup content */
+.cm-popup { font-family: 'Outfit', sans-serif; min-width: 190px; }
+.cm-popup-title { font-weight: 700; font-size: 14px; margin-bottom: 2px; }
+.cm-popup-cat { font-size: 11px; color: #6b82a8; margin-bottom: 6px; }
+.cm-popup-desc { font-size: 12.5px; margin-bottom: 6px; line-height: 1.4; }
+.cm-popup-open { font-size: 11.5px; font-weight: 600; margin-bottom: 8px; }
+.cm-popup-open.open { color: #00a86b; }
+.cm-popup-open.closed { color: #e53e3e; }
+.cm-popup-actions { display: flex; gap: 6px; }
+
+/* Directions panel */
+.cm-directions {
+  position: absolute; left: 14px; right: 14px; bottom: 14px; z-index: 600;
+  background: var(--card-bg); backdrop-filter: blur(16px); border: 1.5px solid var(--border);
+  border-radius: 14px; padding: 12px 14px; max-height: 40%; overflow: auto;
+}
+.cm-directions-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.cm-directions-title { font-weight: 700; font-size: 14px; color: var(--head); }
+.cm-directions-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.cm-directions-actions { display: flex; gap: 6px; }
+.cm-directions-actions .active { border-color: #5b8fff; color: #5b8fff; }
+.cm-directions-loading { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+.cm-steps { margin: 8px 0 0; padding-left: 18px; font-size: 12.5px; color: var(--text); }
+.cm-steps li { margin-bottom: 4px; }
+
+/* Buttons (module-scoped, mirror the app's rounded-pill style) */
+.cm-btn-primary, .cm-btn-ghost, .cm-btn-danger {
+  border-radius: 10px; padding: 10px 16px; font-size: 13px; font-weight: 600; cursor: pointer; border: 1.5px solid transparent;
+}
+.cm-btn-primary { background: #5b8fff; color: #fff; }
+.cm-btn-primary:hover { background: #4a7ef0; }
+.cm-btn-ghost { background: transparent; border-color: var(--border); color: var(--text); }
+.cm-btn-ghost:hover { border-color: #5b8fff; }
+.cm-btn-danger { background: transparent; border-color: #e53e3e; color: #e53e3e; }
+.cm-btn-danger:hover { background: rgba(229,62,62,.1); }
+.cm-btn-sm { padding: 6px 10px; font-size: 12px; }
+.cm-icon-btn { background: none; border: none; color: var(--muted); font-size: 16px; cursor: pointer; }
+
+/* Admin add/edit modal */
+.cm-modal-backdrop {
+  position: fixed; inset: 0; background: rgba(6,9,16,.6); z-index: 2000;
+  display: flex; align-items: center; justify-content: center; padding: 20px;
+}
+.cm-modal {
+  background: var(--card); border: 1.5px solid var(--border); border-radius: 16px; padding: 20px;
+  width: 100%; max-width: 420px; max-height: 90vh; overflow: auto; display: flex; flex-direction: column; gap: 12px;
+}
+.cm-modal-head { display: flex; justify-content: space-between; align-items: center; }
+.cm-modal-head strong { font-size: 16px; color: var(--head); }
+.cm-row { display: flex; gap: 10px; }
+.cm-row .cm-field { flex: 1; }
+.cm-field-sm { flex: 0.7; }
+.cm-field { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--text); }
+.cm-field input, .cm-field select, .cm-field textarea {
+  background: var(--input-bg, var(--s2)); border: 1.5px solid var(--border); border-radius: 10px;
+  padding: 9px 11px; color: var(--text); font-family: inherit; font-size: 13px;
+}
+.cm-coord-actions { flex-wrap: wrap; }
+.cm-modal-actions { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+
+@media (max-width: 720px) {
+  .cm-toolbar { flex-direction: column; }
+  .cm-toolbar .cm-btn-primary { width: 100%; }
+  .cm-directions { left: 8px; right: 8px; bottom: 8px; max-height: 46%; }
+}

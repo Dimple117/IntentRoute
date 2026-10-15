@@ -1,0 +1,722 @@
+query,intent
+quiet place to study,STUDY
+where can I study,STUDY
+I need a place to read,STUDY
+silent study area,STUDY
+I want to focus on my assignment,STUDY
+where is the reading room,STUDY
+I need a desk to work,STUDY
+peaceful place to study,STUDY
+I need Wi-Fi to study,STUDY
+where can I do my homework,STUDY
+I need to prepare for exams,STUDY
+study lounge near me,STUDY
+I want a quiet corner,STUDY
+where to revise for tests,STUDY
+I need a table and chair to work,STUDY
+24 hour study room,STUDY
+group study space,STUDY
+I want to do research,STUDY
+where can I access academic journals,STUDY
+I need to concentrate on my project,STUDY
+where is the computer lab for studying,STUDY
+I need a productive environment,STUDY
+where to sit and study outdoors,STUDY
+seminar room to study,STUDY
+I want a collaborative study space,STUDY
+where can I get breakfast,FOOD
+I am hungry,FOOD
+where is the cafeteria,FOOD
+find me a canteen,FOOD
+where to eat near here,FOOD
+food stalls on campus,FOOD
+I need lunch right now,FOOD
+where can I get a meal,FOOD
+find me a restaurant,FOOD
+I need coffee and snacks,FOOD
+where is the dining hall,FOOD
+I want pizza near campus,FOOD
+late night food options,FOOD
+where can I eat cheaply,FOOD
+campus food court,FOOD
+I want to grab a bite,FOOD
+where is the nearest eating place,FOOD
+I need a quick snack,FOOD
+vegetarian food on campus,FOOD
+where to get drinks and food,FOOD
+I want to buy lunch,FOOD
+food near the engineering block,FOOD
+where is the mess hall,FOOD
+best place to eat on campus,FOOD
+I want hot food,FOOD
+I skipped breakfast where can I eat,FOOD
+I need dinner options,FOOD
+fast food on campus,FOOD
+where can I get tea or coffee,FOOD
+tuck shop near library,FOOD
+I need a doctor,MEDICAL
+I am feeling sick,MEDICAL
+where is the health center,MEDICAL
+medical emergency on campus,MEDICAL
+I need first aid,MEDICAL
+where is the clinic,MEDICAL
+I have a headache and need medicine,MEDICAL
+pharmacy on campus,MEDICAL
+I need to see a nurse,MEDICAL
+where is the nearest hospital,MEDICAL
+I feel unwell,MEDICAL
+I need urgent medical attention,MEDICAL
+where can I get medication,MEDICAL
+campus dispensary location,MEDICAL
+I need an ambulance,MEDICAL
+I have an injury,MEDICAL
+where is the medical room,MEDICAL
+mental health support on campus,MEDICAL
+I need counseling services,MEDICAL
+I feel dizzy and need help,MEDICAL
+health services location,MEDICAL
+where is the student clinic,MEDICAL
+I need a medical certificate,MEDICAL
+I need to see a specialist,MEDICAL
+I have a fever,MEDICAL
+where can I get vaccinated,MEDICAL
+I cut myself and need bandages,MEDICAL
+I need eye care services,MEDICAL
+emergency medical help,MEDICAL
+I need dental care,MEDICAL
+where is the admission office,ADMIN
+I need to register for a course,ADMIN
+where can I pay fees,ADMIN
+I need my transcript,ADMIN
+student affairs office location,ADMIN
+I need to update my personal details,ADMIN
+where is the registrar,ADMIN
+I need an official letter,ADMIN
+how to apply for graduation,ADMIN
+finance office location,ADMIN
+where to get my student ID,ADMIN
+I need to file a complaint,ADMIN
+where is the dean office,ADMIN
+I need a scholarship form,ADMIN
+where to appeal my grade,ADMIN
+I need to defer my semester,ADMIN
+where is the examination office,ADMIN
+academic calendar enquiry,ADMIN
+where to get a bonafide certificate,ADMIN
+I need to change my course,ADMIN
+where is the international students office,ADMIN
+I need to renew my library card,ADMIN
+where is the HR department,ADMIN
+faculty administrative office,ADMIN
+I need to collect my certificate,ADMIN
+where to submit my assignment officially,ADMIN
+where is the results office,ADMIN
+I need to sign documents,ADMIN
+where is the vice chancellor office,ADMIN
+where to report an academic issue,ADMIN
+where is the computer lab,LAB
+I need to print something,LAB
+access science laboratory,LAB
+where is the physics lab,LAB
+I need to use lab equipment,LAB
+where is the chemistry lab,LAB
+I need to run an experiment,LAB
+where is the biology lab,LAB
+I need a workstation for coding,LAB
+programming lab location,LAB
+where is the electronics lab,LAB
+I need to use the 3D printer,LAB
+where is the robotics lab,LAB
+I need to use lab instruments,LAB
+where is the engineering lab,LAB
+software lab on campus,LAB
+I need to use MATLAB,LAB
+where is the networking lab,LAB
+machine learning computing lab,LAB
+I need to use the microscope,LAB
+where is the AI lab,LAB
+where can I scan documents,LAB
+I need to use Linux machines,LAB
+where is the research lab,LAB
+I need to use specialized software,LAB
+where is the hardware lab,LAB
+I need to calibrate instruments,LAB
+where is the photonics lab,LAB
+I need a GPU workstation,LAB
+where is my hostel,HOSTEL
+I need to go back to my room,HOSTEL
+where is block A hostel,HOSTEL
+I need directions to my dormitory,HOSTEL
+where is the boys hostel,HOSTEL
+I want to go to my accommodation,HOSTEL
+where is the warden office,HOSTEL
+I have a room maintenance issue,HOSTEL
+where is the hostel office,HOSTEL
+I need to check my room allocation,HOSTEL
+where is the laundry room,HOSTEL
+I need to pay my hostel fees,HOSTEL
+where is the common room,HOSTEL
+hostel visiting hours,HOSTEL
+where is the nearest hostel,HOSTEL
+I need to speak to the hostel warden,HOSTEL
+where is the student residence,HOSTEL
+I need to apply for hostel,HOSTEL
+where is the hostel canteen,HOSTEL
+I need to find my block,HOSTEL
+where is the hostel gym,HOSTEL
+hostel internet issues,HOSTEL
+where is the hostel prayer room,HOSTEL
+I locked myself out of my room,HOSTEL
+where is the hostel recreation room,HOSTEL
+I need to report a hostel problem,HOSTEL
+where is the nearest ATM in hostel,HOSTEL
+where is block C hostel,HOSTEL
+hostel check-in procedure,HOSTEL
+I need to print,STATIONERY
+I need to print my assignment,STATIONERY
+I need a printout,STATIONERY
+where can I get a printout,STATIONERY
+I need to xerox this,STATIONERY
+I need a photocopy,STATIONERY
+where can I photocopy documents,STATIONERY
+I need to scan a document,STATIONERY
+I need a record book,STATIONERY
+I need an assignment book,STATIONERY
+I need a lab record book,STATIONERY
+I need a notebook,STATIONERY
+where can I buy notebooks,STATIONERY
+I need graph sheets,STATIONERY
+I need a file cover,STATIONERY
+I need a geometry box,STATIONERY
+I need pens and pencils,STATIONERY
+where is the stationery shop,STATIONERY
+where can I buy stationery items,STATIONERY
+I need to buy a textbook,STATIONERY
+where can I buy books,STATIONERY
+I need graph paper for my project,STATIONERY
+I need a project report cover,STATIONERY
+I need a spiral binding,STATIONERY
+I need my project report bound,STATIONERY
+I need a calculator,STATIONERY
+I need highlighters and markers,STATIONERY
+I need a stapler,STATIONERY
+where can I get my thesis printed,STATIONERY
+I need a drawing sheet,STATIONERY
+where is the library,LIBRARY
+library study room,LIBRARY
+library near my hostel,LIBRARY
+open library right now,LIBRARY
+where can I borrow textbooks,LIBRARY
+I need reference books,LIBRARY
+I want to return the book,LIBRARY
+I need to return the book,LIBRARY
+I want to return a library book,LIBRARY
+where do I return books,LIBRARY
+I need to return my textbook,LIBRARY
+I have to submit a book to the library,LIBRARY
+where can I return borrowed books,LIBRARY
+I need to renew my library book,LIBRARY
+where do I return my library books,LIBRARY
+I need to issue a book from the library,LIBRARY
+I need a quite place to study,LIBRARY
+where is the boys common area,BOYS_COMMON_AREA
+boys common area location,BOYS_COMMON_AREA
+I want to relax in the boys common area,BOYS_COMMON_AREA
+I want to relax ,BOYS_COMMON_AREA
+where can boys hang out,BOYS_COMMON_AREA
+boys hostel recreation space,BOYS_COMMON_AREA
+where is the common area for boys,BOYS_COMMON_AREA
+I want to sit in the boys common space,BOYS_COMMON_AREA
+where do boys gather,BOYS_COMMON_AREA
+boys hostel open area,BOYS_COMMON_AREA
+where can I chill with friends in the boys,BOYS_COMMON_AREA
+take me to the boys common area,BOYS_COMMON_AREA
+boys common hangout space,BOYS_COMMON_AREA
+where is the open space,BOYS_COMMON_AREA
+I want to borrow a textbook,LIBRARY
+I want to borrow a book,LIBRARY
+can I borrow this book,LIBRARY
+where can I check out a book,LIBRARY
+I need to issue a textbook,LIBRARY
+where is the girls common area,GIRLS_COMMON_AREA
+girls common area location,GIRLS_COMMON_AREA
+I want to relax in the girls common area,GIRLS_COMMON_AREA
+where can girls hang out,GIRLS_COMMON_AREA
+girls hostel recreation space,GIRLS_COMMON_AREA
+where is the common area for girls,GIRLS_COMMON_AREA
+I want to sit in the girls common space,GIRLS_COMMON_AREA
+where do girls gather,GIRLS_COMMON_AREA
+girls hostel open area,GIRLS_COMMON_AREA
+where can I chill with friends in the girls hostel,GIRLS_COMMON_AREA
+take me to the girls common area,GIRLS_COMMON_AREA
+girls common hangout space,GIRLS_COMMON_AREA
+is there a common room for girls,GIRLS_COMMON_AREA
+where do girls sit and talk,GIRLS_COMMON_AREA
+girls hostel lounge,GIRLS_COMMON_AREA
+where is the open space for girls,GIRLS_COMMON_AREA
+is there a lounge in the girls hostel,GIRLS_COMMON_AREA
+where can I meet my friends near the girls hostel,GIRLS_COMMON_AREA
+where is the waiting lounge,WAITING_LOUNGE
+I need a place to wait,WAITING_LOUNGE
+where can I sit while I wait,WAITING_LOUNGE
+is there a waiting area on campus,WAITING_LOUNGE
+where can I wait for my friend,WAITING_LOUNGE
+covered area to wait,WAITING_LOUNGE
+where is a shaded place to sit and wait,WAITING_LOUNGE
+I am waiting for someone where should I sit,WAITING_LOUNGE
+where can visitors wait,WAITING_LOUNGE
+is there a lounge to wait in,WAITING_LOUNGE
+where can I rest for a while,WAITING_LOUNGE
+waiting room location,WAITING_LOUNGE
+where can parents wait,WAITING_LOUNGE
+where is the temple,TEMPLE
+is there a prayer space on campus,TEMPLE
+where can I pray,TEMPLE
+campus temple location,TEMPLE
+where is the shrine,TEMPLE
+I want to visit the temple,TEMPLE
+where can I offer prayers,TEMPLE
+is there a mandir on campus,TEMPLE
+where is the pooja room,TEMPLE
+where can I sit quietly and pray,TEMPLE
+where is the meditation space,TEMPLE
+where can I park my bike,PARKING
+where is the parking area,PARKING
+I need parking for my car,PARKING
+two wheeler parking location,PARKING
+where can I park my scooter,PARKING
+four wheeler parking near me,PARKING
+is there parking on campus,PARKING
+where do I leave my vehicle,PARKING
+where is the bike stand,PARKING
+car parking area location,PARKING
+where can visitors park,PARKING
+is there a parking lot nearby,PARKING
+where is the auditorium,AUDITORIUM
+where is the seminar hall,AUDITORIUM
+where can I attend the event,AUDITORIUM
+where is the fest happening,AUDITORIUM
+open air auditorium location,AUDITORIUM
+where is the main stage,AUDITORIUM
+where can I attend a seminar,AUDITORIUM
+where is the function hall,AUDITORIUM
+I need to attend a college event,AUDITORIUM
+where is the college program being held,AUDITORIUM
+where can I watch the cultural event,AUDITORIUM
+where is the seating arrangement,SEATING
+open air seating location,SEATING
+where can I sit outside,SEATING
+is there outdoor seating on campus,SEATING
+where can students sit and chat,SEATING
+where is the seating area near the ground,SEATING
+where can I sit with friends outdoors,SEATING
+outdoor benches location,SEATING
+where is the civil department,CIVIL_BLOCK
+where is the civil block,CIVIL_BLOCK
+I want to go to civil department,CIVIL_BLOCK
+civil engineering department location,CIVIL_BLOCK
+take me to civil block,CIVIL_BLOCK
+where is civil engineering,CIVIL_BLOCK
+I need to visit the civil department,CIVIL_BLOCK
+where is the civil dept office,CIVIL_BLOCK
+where do civil students have class,CIVIL_BLOCK
+I have a civil engineering class,CIVIL_BLOCK
+where is my civil classroom,CIVIL_BLOCK
+navigate to civil block,CIVIL_BLOCK
+where is the HOD for civil,CIVIL_BLOCK
+I need to meet my civil professor,CIVIL_BLOCK
+where is the civil department block,CIVIL_BLOCK
+where is the EEE block,EEE_BLOCK
+where is the EEE department,EEE_BLOCK
+I want to go to EEE department,EEE_BLOCK
+electrical and electronics department location,EEE_BLOCK
+take me to EEE block,EEE_BLOCK
+where is electrical and electronics engineering,EEE_BLOCK
+I need to visit the EEE department,EEE_BLOCK
+where is the EEE dept office,EEE_BLOCK
+where do EEE students have class,EEE_BLOCK
+I have an EEE class,EEE_BLOCK
+where is my EEE classroom,EEE_BLOCK
+navigate to EEE block,EEE_BLOCK
+where is the HOD for EEE,EEE_BLOCK
+I need to meet my EEE professor,EEE_BLOCK
+where is the electrical department block,EEE_BLOCK
+where is the BCA and MCA block,BCA_MCA_BLOCK
+where is the BCA department,BCA_MCA_BLOCK
+where is the MCA department,BCA_MCA_BLOCK
+I want to go to BCA MCA block,BCA_MCA_BLOCK
+BCA and MCA department location,BCA_MCA_BLOCK
+take me to BCA MCA block,BCA_MCA_BLOCK
+where is the BCA MCA dept office,BCA_MCA_BLOCK
+where do BCA students have class,BCA_MCA_BLOCK
+where do MCA students have class,BCA_MCA_BLOCK
+I have a BCA class,BCA_MCA_BLOCK
+I have an MCA class,BCA_MCA_BLOCK
+navigate to BCA and MCA block,BCA_MCA_BLOCK
+where is the HOD for BCA MCA,BCA_MCA_BLOCK
+I need to meet my BCA professor,BCA_MCA_BLOCK
+where is the computer applications department,BCA_MCA_BLOCK
+where is the mechanical block,MECHANICAL_BLOCK
+where is the mechanical department,MECHANICAL_BLOCK
+I want to go to mechanical department,MECHANICAL_BLOCK
+mechanical engineering department location,MECHANICAL_BLOCK
+take me to mechanical block,MECHANICAL_BLOCK
+where is mechanical engineering,MECHANICAL_BLOCK
+I need to visit the mechanical department,MECHANICAL_BLOCK
+where is the mechanical dept office,MECHANICAL_BLOCK
+where do mechanical students have class,MECHANICAL_BLOCK
+I have a mechanical engineering class,MECHANICAL_BLOCK
+where is my mechanical classroom,MECHANICAL_BLOCK
+navigate to mechanical block,MECHANICAL_BLOCK
+where is the HOD for mechanical,MECHANICAL_BLOCK
+I need to meet my mechanical professor,MECHANICAL_BLOCK
+where is the mechanical workshop department,MECHANICAL_BLOCK
+where is the cricket ground,SPORTS
+where is the basketball court,SPORTS
+where is the throwball court,SPORTS
+where is the sports complex,SPORTS
+where can I play volleyball,SPORTS
+where can I play badminton,SPORTS
+where is the playground,SPORTS
+I want to play cricket,SPORTS
+where is the sports ground,SPORTS
+where can I do outdoor sports,SPORTS
+where is the gym,SPORTS
+where can I practice basketball,SPORTS
+where is the girls hostel,GIRLS_HOSTEL
+where is the girls hostel warden office,GIRLS_HOSTEL
+I need to speak to the girls hostel warden,GIRLS_HOSTEL
+where is the girls hostel mess,GIRLS_HOSTEL
+girls accommodation location,GIRLS_HOSTEL
+where do girls stay on campus,GIRLS_HOSTEL
+I need to report a girls hostel problem,GIRLS_HOSTEL
+where is the girls hostel office,GIRLS_HOSTEL
+I need to check into the girls hostel,GIRLS_HOSTEL
+where is my room in the girls hostel,GIRLS_HOSTEL
+where is the girls hostel gate,GIRLS_HOSTEL
+where is the nearest ATM,ATM
+I need cash,ATM
+where can I withdraw money,ATM
+is there an ATM on campus,ATM
+where is the cash machine,ATM
+I need to withdraw cash,ATM
+where can I use my debit card,ATM
+nearest cash withdrawal point,ATM
+where is the bank ATM,ATM
+where is the washroom,WASHROOM
+where is the nearest toilet,WASHROOM
+I need to use the restroom,WASHROOM
+where is the bathroom,WASHROOM
+public washroom location,WASHROOM
+where can I wash my hands,WASHROOM
+where is the ladies washroom,WASHROOM
+where is the mens washroom,WASHROOM
+is there a toilet nearby,WASHROOM
+where is the restroom near the library,WASHROOM
+where is the VLSI lab,LAB
+where is the hostel mess,HOSTEL
+I need a distraction free zone to study,STUDY
+where can I sit and revise silently,STUDY
+I want to study before my exam,STUDY
+where is a good spot to concentrate,STUDY
+I need internet access to study online,STUDY
+where is the digital library,LIBRARY
+I want to read newspapers in the library,LIBRARY
+where can I access e-books,LIBRARY
+library timings today,LIBRARY
+where is the reference section,LIBRARY
+I need to pay a library fine,LIBRARY
+where can I photocopy inside the library,LIBRARY
+is the library open right now,LIBRARY
+where do I get a library card,LIBRARY
+where can girls relax after class,GIRLS_COMMON_AREA
+girls hostel TV room location,GIRLS_COMMON_AREA
+where do girls watch TV together,GIRLS_COMMON_AREA
+is there a common area near the girls hostel gate,GIRLS_COMMON_AREA
+where can girls play indoor games,GIRLS_COMMON_AREA
+girls hostel recreation room,GIRLS_COMMON_AREA
+where can I unwind with my roommates,GIRLS_COMMON_AREA
+is there a place for girls to chat after dinner,GIRLS_COMMON_AREA
+where can girls celebrate birthdays,GIRLS_COMMON_AREA
+girls hostel common hall location,GIRLS_COMMON_AREA
+where do girls hold get togethers,GIRLS_COMMON_AREA
+is there a girls hangout spot on campus,GIRLS_COMMON_AREA
+civil engineering lab location,CIVIL_BLOCK
+where is the civil department seminar hall,CIVIL_BLOCK
+I need to submit my civil assignment,CIVIL_BLOCK
+where is the civil department notice board,CIVIL_BLOCK
+civil block staff room location,CIVIL_BLOCK
+where is the surveying lab,CIVIL_BLOCK
+I have a civil practical class,CIVIL_BLOCK
+where is the structural engineering lab,CIVIL_BLOCK
+civil engineering project room,CIVIL_BLOCK
+where do I meet the civil department coordinator,CIVIL_BLOCK
+civil block second floor classrooms,CIVIL_BLOCK
+where is the concrete testing lab,CIVIL_BLOCK
+I need to attend a civil seminar,CIVIL_BLOCK
+where is the civil engineering library,CIVIL_BLOCK
+civil department admin office,CIVIL_BLOCK
+EEE lab location,EEE_BLOCK
+where is the EEE department seminar hall,EEE_BLOCK
+I need to submit my EEE assignment,EEE_BLOCK
+where is the EEE department notice board,EEE_BLOCK
+EEE block staff room location,EEE_BLOCK
+where is the power systems lab,EEE_BLOCK
+I have an EEE practical class,EEE_BLOCK
+where is the control systems lab,EEE_BLOCK
+electrical engineering project room,EEE_BLOCK
+where do I meet the EEE department coordinator,EEE_BLOCK
+EEE block second floor classrooms,EEE_BLOCK
+where is the circuits lab,EEE_BLOCK
+I need to attend an EEE seminar,EEE_BLOCK
+where is the electrical engineering library,EEE_BLOCK
+EEE department admin office,EEE_BLOCK
+BCA lab location,BCA_MCA_BLOCK
+MCA lab location,BCA_MCA_BLOCK
+where is the BCA MCA seminar hall,BCA_MCA_BLOCK
+I need to submit my BCA assignment,BCA_MCA_BLOCK
+I need to submit my MCA assignment,BCA_MCA_BLOCK
+where is the BCA MCA notice board,BCA_MCA_BLOCK
+BCA MCA block staff room location,BCA_MCA_BLOCK
+I have a BCA practical class,BCA_MCA_BLOCK
+I have an MCA practical class,BCA_MCA_BLOCK
+computer applications project room,BCA_MCA_BLOCK
+where do I meet the BCA MCA coordinator,BCA_MCA_BLOCK
+BCA MCA block second floor classrooms,BCA_MCA_BLOCK
+where is the database lab for BCA,BCA_MCA_BLOCK
+I need to attend a BCA seminar,BCA_MCA_BLOCK
+BCA MCA department admin office,BCA_MCA_BLOCK
+mechanical lab location,MECHANICAL_BLOCK
+where is the mechanical department seminar hall,MECHANICAL_BLOCK
+I need to submit my mechanical assignment,MECHANICAL_BLOCK
+where is the mechanical department notice board,MECHANICAL_BLOCK
+mechanical block staff room location,MECHANICAL_BLOCK
+where is the thermodynamics lab,MECHANICAL_BLOCK
+I have a mechanical practical class,MECHANICAL_BLOCK
+where is the CAD lab,MECHANICAL_BLOCK
+mechanical engineering project room,MECHANICAL_BLOCK
+where do I meet the mechanical department coordinator,MECHANICAL_BLOCK
+mechanical block second floor classrooms,MECHANICAL_BLOCK
+where is the manufacturing lab,MECHANICAL_BLOCK
+I need to attend a mechanical seminar,MECHANICAL_BLOCK
+where is the mechanical engineering library,MECHANICAL_BLOCK
+mechanical department admin office,MECHANICAL_BLOCK
+where can boys relax after class,BOYS_COMMON_AREA
+boys hostel TV room location,BOYS_COMMON_AREA
+where do boys watch TV together,BOYS_COMMON_AREA
+is there a common area near the boys hostel gate,BOYS_COMMON_AREA
+where can boys play indoor games,BOYS_COMMON_AREA
+boys hostel recreation room,BOYS_COMMON_AREA
+where can I unwind with my roommates in the boys hostel,BOYS_COMMON_AREA
+is there a place for boys to chat after dinner,BOYS_COMMON_AREA
+where can boys celebrate birthdays,BOYS_COMMON_AREA
+boys hostel common hall location,BOYS_COMMON_AREA
+where do boys hold get togethers,BOYS_COMMON_AREA
+is there a boys hangout spot on campus,BOYS_COMMON_AREA
+where is the open space near the boys hostel,BOYS_COMMON_AREA
+is there a lounge in the boys hostel,BOYS_COMMON_AREA
+where can I meet my friends near the boys hostel,BOYS_COMMON_AREA
+boys common area seating,BOYS_COMMON_AREA
+where can I wait before my class,WAITING_LOUNGE
+is there a waiting bench near the admin office,WAITING_LOUNGE
+where can I sit while waiting for the bus,WAITING_LOUNGE
+waiting hall near the gate,WAITING_LOUNGE
+where can I wait for a meeting,WAITING_LOUNGE
+is there air conditioned seating to wait in,WAITING_LOUNGE
+where can I wait for my interview,WAITING_LOUNGE
+seating for visitors while waiting,WAITING_LOUNGE
+where can I wait near the main entrance,WAITING_LOUNGE
+is there a waiting spot near reception,WAITING_LOUNGE
+where can I sit while waiting for a friend to finish class,WAITING_LOUNGE
+waiting bench near the canteen,WAITING_LOUNGE
+where is a quiet spot to wait,WAITING_LOUNGE
+where can I wait before my appointment,WAITING_LOUNGE
+is there a place to sit near the parking area while waiting,WAITING_LOUNGE
+where can guardians wait during admission,WAITING_LOUNGE
+waiting seats near the library entrance,WAITING_LOUNGE
+where is the staff parking,PARKING
+is there covered parking on campus,PARKING
+where can I park my bicycle,PARKING
+visitor parking location,PARKING
+where is parking near the main gate,PARKING
+is a parking pass required,PARKING
+where can I park near the auditorium,PARKING
+where is parking near the hostel,PARKING
+is there free parking on campus,PARKING
+where can faculty park their cars,PARKING
+where do delivery vehicles park,PARKING
+is there parking near the sports ground,PARKING
+where can I find an empty parking spot,PARKING
+where is parking near the canteen,PARKING
+two wheeler parking near the library,PARKING
+where should I park during college events,PARKING
+is there security at the parking area,PARKING
+where can I park overnight,PARKING
+where is the football ground,SPORTS
+where can I practice table tennis,SPORTS
+is there a swimming pool on campus,SPORTS
+where can I play chess,SPORTS
+where is the athletics track,SPORTS
+sports equipment room location,SPORTS
+where can I join the cricket team,SPORTS
+where is the volleyball court,SPORTS
+where can I do yoga on campus,SPORTS
+where is the sports office,SPORTS
+where can I register for a tournament,SPORTS
+where can I practice running,SPORTS
+where is the carrom room,SPORTS
+where can I play kabaddi,SPORTS
+is there a fitness center on campus,SPORTS
+where can I borrow sports equipment,SPORTS
+where is the sports coach's office,SPORTS
+where can I watch a college match,SPORTS
+where can students offer prayers before exams,TEMPLE
+is there a place for morning prayers,TEMPLE
+where is the puja room,TEMPLE
+temple timings on campus,TEMPLE
+where can I light a lamp,TEMPLE
+is there a shrine near the hostel,TEMPLE
+where do students pray before an event,TEMPLE
+where can I sit and meditate quietly,TEMPLE
+is there a spiritual space on campus,TEMPLE
+where is the campus deity located,TEMPLE
+where can I offer flowers,TEMPLE
+where is the prayer hall,TEMPLE
+is there a temple near the main gate,TEMPLE
+where can I do evening prayers,TEMPLE
+where is the sacred space on campus,TEMPLE
+temple location near the library,TEMPLE
+where can I attend a pooja,TEMPLE
+is there a quiet prayer corner,TEMPLE
+where is the meditation hall,TEMPLE
+where is the drama rehearsal hall,AUDITORIUM
+where can I attend the annual day function,AUDITORIUM
+where is the graduation ceremony held,AUDITORIUM
+where can I watch a guest lecture,AUDITORIUM
+where is the placement talk happening,AUDITORIUM
+where can I attend the orientation program,AUDITORIUM
+where is the music concert venue,AUDITORIUM
+where can I attend a workshop,AUDITORIUM
+where is the convocation hall,AUDITORIUM
+where can I watch the dance competition,AUDITORIUM
+where is the debate competition held,AUDITORIUM
+where can I attend the tech fest inauguration,AUDITORIUM
+where is the open air theatre,AUDITORIUM
+where can I attend a paper presentation,AUDITORIUM
+where is the prize distribution ceremony,AUDITORIUM
+where can I watch a play,AUDITORIUM
+where is the seminar on new technology held,AUDITORIUM
+where can I attend the alumni meet,AUDITORIUM
+where is the cultural fest stage,AUDITORIUM
+where is the girls hostel laundry,GIRLS_HOSTEL
+girls hostel visiting hours,GIRLS_HOSTEL
+where is the girls hostel common room,GIRLS_HOSTEL
+I need to apply for girls hostel,GIRLS_HOSTEL
+where is the girls hostel canteen,GIRLS_HOSTEL
+I need to check my girls hostel room allocation,GIRLS_HOSTEL
+where is the girls hostel gym,GIRLS_HOSTEL
+girls hostel internet issues,GIRLS_HOSTEL
+where is the girls hostel prayer room,GIRLS_HOSTEL
+I locked myself out of my girls hostel room,GIRLS_HOSTEL
+where is the girls hostel recreation room,GIRLS_HOSTEL
+where is the nearest ATM in the girls hostel,GIRLS_HOSTEL
+where is block B girls hostel,GIRLS_HOSTEL
+girls hostel check-in procedure,GIRLS_HOSTEL
+I need to pay my girls hostel fees,GIRLS_HOSTEL
+where do I find my girls hostel block,GIRLS_HOSTEL
+girls hostel security desk location,GIRLS_HOSTEL
+where is the girls hostel study room,GIRLS_HOSTEL
+where is the girls hostel warden's residence,GIRLS_HOSTEL
+where is the washroom near the canteen,WASHROOM
+where is the washroom near the auditorium,WASHROOM
+where is the washroom near the sports ground,WASHROOM
+where is the washroom near the parking area,WASHROOM
+is there a washroom near the admin block,WASHROOM
+where is the washroom in the girls hostel,WASHROOM
+where is the washroom in the boys hostel,WASHROOM
+where is the accessible washroom,WASHROOM
+where can I find a clean washroom,WASHROOM
+washroom near the mechanical block,WASHROOM
+washroom near the civil block,WASHROOM
+washroom near the EEE block,WASHROOM
+washroom near the BCA MCA block,WASHROOM
+is there a washroom near the temple,WASHROOM
+where is the staff washroom,WASHROOM
+where is the washroom near the main gate,WASHROOM
+is there a washroom on the ground floor,WASHROOM
+where is the washroom near the seminar hall,WASHROOM
+washroom near the library entrance,WASHROOM
+where is the nearest washroom right now,WASHROOM
+where can I deposit cash,ATM
+is the ATM working right now,ATM
+where is the ATM near the hostel,ATM
+where is the ATM near the main gate,ATM
+I need to check my account balance,ATM
+where can I get a mini statement,ATM
+is there more than one ATM on campus,ATM
+where is the ATM near the canteen,ATM
+which bank's ATM is on campus,ATM
+where can I recharge my phone using the ATM,ATM
+is there an ATM near the library,ATM
+where is the ATM near the admin block,ATM
+I need money urgently where is the ATM,ATM
+where can I withdraw cash after hours,ATM
+is the campus ATM open 24 hours,ATM
+where is the ATM near the sports complex,ATM
+where can I find an ATM with no queue,ATM
+where is the ATM near the auditorium,ATM
+I need to update my passbook,ATM
+where is the ATM near the parking area,ATM
+where can I get cash for an emergency,ATM
+where can I sit and eat outdoors,SEATING
+shaded seating near the ground,SEATING
+where can I sit and read outside,SEATING
+outdoor seating near the canteen,SEATING
+where can groups sit outside,SEATING
+is there seating near the auditorium,SEATING
+where can I sit alone and relax outdoors,SEATING
+benches near the library,SEATING
+where can I sit under a tree,SEATING
+seating near the sports ground,SEATING
+where can I sit and wait outdoors,SEATING
+is there seating near the main gate,SEATING
+where can students hang out outside,SEATING
+open seating near the parking area,SEATING
+where can I sit with my project group outdoors,SEATING
+garden seating location,SEATING
+where can I sit and enjoy fresh air,SEATING
+seating near the temple,SEATING
+where can I sit outside the hostel,SEATING
+outdoor seating near the admin block,SEATING
+where can I take a quick break outside,SEATING
+benches near the sports complex,SEATING
+where is the CSE department library,DEPARTMENT_LIBRARY
+I need to go to the CSE dept library,DEPARTMENT_LIBRARY
+department library of computer science,DEPARTMENT_LIBRARY
+where is the ECE department library,DEPARTMENT_LIBRARY
+take me to the ECE dept library,DEPARTMENT_LIBRARY
+electronics department library location,DEPARTMENT_LIBRARY
+where is the EEE department library,DEPARTMENT_LIBRARY
+electrical department library near me,DEPARTMENT_LIBRARY
+where is the civil department library,DEPARTMENT_LIBRARY
+civil engineering dept library,DEPARTMENT_LIBRARY
+where is the mechanical department library,DEPARTMENT_LIBRARY
+mechanical dept library location,DEPARTMENT_LIBRARY
+where is the ISE department library,DEPARTMENT_LIBRARY
+information science department library,DEPARTMENT_LIBRARY
+where is the AIML department library,DEPARTMENT_LIBRARY
+I want to go to my department library,DEPARTMENT_LIBRARY
+where is my branch library,DEPARTMENT_LIBRARY
+I need to borrow a book from the department library,DEPARTMENT_LIBRARY
+department library timings,DEPARTMENT_LIBRARY
+where is the departmental library,DEPARTMENT_LIBRARY
+I want to study in the department library,DEPARTMENT_LIBRARY
+dept library for final year projects,DEPARTMENT_LIBRARY
+where can I find project reports in the department library,DEPARTMENT_LIBRARY
+where is the BCA department library,DEPARTMENT_LIBRARY
+MCA department library location,DEPARTMENT_LIBRARY
+I need previous year question papers from the department library,DEPARTMENT_LIBRARY
+take me to the department reading room,DEPARTMENT_LIBRARY
+where is the library inside the CSE block,DEPARTMENT_LIBRARY
+I need a reference book from my department library,DEPARTMENT_LIBRARY
+which block has the department library,DEPARTMENT_LIBRARY
